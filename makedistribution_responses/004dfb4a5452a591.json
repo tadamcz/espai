@@ -1,0 +1,40 @@
+{
+  "created_at": "2024-09-13T22:09:55.402149+00:00",
+  "elapsed": 0.104446,
+  "encoding": "utf-8",
+  "headers": {
+    "Allow": "GET, HEAD, OPTIONS",
+    "Content-Length": "37",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Fri, 13 Sep 2024 22:09:55 GMT",
+    "Referrer-Policy": "same-origin",
+    "Server": "gunicorn",
+    "Strict-Transport-Security": "max-age=60; includeSubDomains; preload",
+    "Vary": "Accept, Cookie",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-Makedistribution-Id": "ea0b921017ea0e30561ce79f44a8fc89"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Authorization": "REDACTED",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "GET",
+    "url": "https://makedistribution.com/s/api/v0/1d/dists/odist_3Jvy12dmGaWfgKuxVM8fzl/cdf/?x=20"
+  },
+  "status_code": 200,
+  "url": "https://makedistribution.com/s/api/v0/1d/dists/odist_3Jvy12dmGaWfgKuxVM8fzl/cdf/?x=20",
+  "_decoded_content": [
+    {
+      "x": 20.0,
+      "p": 0.019999999999999993
+    }
+  ]
+}

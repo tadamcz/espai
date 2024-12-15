@@ -1,0 +1,70 @@
+{
+  "created_at": "2024-11-18T16:36:43.854401+00:00",
+  "elapsed": 0.089927,
+  "encoding": "utf-8",
+  "headers": {
+    "Allow": "GET, POST, HEAD, OPTIONS",
+    "Content-Length": "285",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Mon, 18 Nov 2024 16:36:43 GMT",
+    "Referrer-Policy": "same-origin",
+    "Server": "gunicorn",
+    "Strict-Transport-Security": "max-age=60; includeSubDomains; preload",
+    "Vary": "Accept, Cookie",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-Makedistribution-Id": "42f227c185f733f90f1512c9e7512542"
+  },
+  "reason": "Created",
+  "request": {
+    "body": "dm>?SXLW65Zgg`ZIv{%@adlyCbZKm5b0Rt*TYDmKB03;2E-*4IAR>4oIv_DHE--y8AbTQkB03;2E-@@1B6uP?ATls6Fnuf_dm?ZmIv_AEHZ?3DB6uP?AT=;9Fnuf_dm?ZmIv_AEFf1S<cp^F=FfK5CU41MdB4%N2X>55SIv{%@a%FLKWpi|8WFk5sB4cT8bY*gIGhZ+<B7J=",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Authorization": "REDACTED",
+      "Connection": "keep-alive",
+      "Content-Length": "163",
+      "Content-Type": "application/json",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "POST",
+    "url": "https://makedistribution.com/s/api/v0/1d/dists/"
+  },
+  "status_code": 201,
+  "url": "https://makedistribution.com/s/api/v0/1d/dists/",
+  "_decoded_content": {
+    "id": "odist_3N97OCcfumEMdsfjjubvzn",
+    "name": null,
+    "family": {
+      "requested": "cinterp3_01",
+      "selected": "cinterp3_01"
+    },
+    "arguments": {
+      "quantiles": [
+        {
+          "p": 0.02,
+          "x": 10.0
+        },
+        {
+          "p": 0.1,
+          "x": 20.0
+        },
+        {
+          "p": 0.65,
+          "x": 50.0
+        },
+        {
+          "p": 0.0,
+          "x": 0.0
+        }
+      ]
+    },
+    "fit": {
+      "status": "success",
+      "type": "exact",
+      "result": null,
+      "error": null
+    }
+  }
+}

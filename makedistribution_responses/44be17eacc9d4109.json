@@ -1,0 +1,70 @@
+{
+  "created_at": "2024-09-15T21:47:38.879084+00:00",
+  "elapsed": 0.10348,
+  "encoding": "utf-8",
+  "headers": {
+    "Allow": "GET, POST, HEAD, OPTIONS",
+    "Content-Length": "307",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Sun, 15 Sep 2024 21:47:38 GMT",
+    "Referrer-Policy": "same-origin",
+    "Server": "gunicorn",
+    "Strict-Transport-Security": "max-age=60; includeSubDomains; preload",
+    "Vary": "Accept, Cookie",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-Makedistribution-Id": "0beeb79c591a07fea752bc6074c4f448"
+  },
+  "reason": "Created",
+  "request": {
+    "body": "dm>?SXLW65Zgg`ZIv{%@adlyCbZKm5b0Rt*TYDmKB03;2E-@@1B6uP?ATlm6eJmh*B5)!)ATTa9EFdCyB03;4E-)}KFfcKFEFgO#a3VS&FfKVPAR>4oIv_GGFfcGMFfuSOFfcGMFfcGPeJmh*B5)!)ATTa4EFdCyB03;3E;%_lIXO8wIDK7xEFdCgVQpz_c_KO>dm?gWadl;LbY)~BIv^rrX>N37a&R+WFfk&1eE",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Authorization": "REDACTED",
+      "Connection": "keep-alive",
+      "Content-Length": "185",
+      "Content-Type": "application/json",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "POST",
+    "url": "https://makedistribution.com/s/api/v0/1d/dists/"
+  },
+  "status_code": 201,
+  "url": "https://makedistribution.com/s/api/v0/1d/dists/",
+  "_decoded_content": {
+    "id": "odist_7ArAdZvnS3iiva01GFZAAb",
+    "name": null,
+    "family": {
+      "requested": "cinterp3_01",
+      "selected": "cinterp3_01"
+    },
+    "arguments": {
+      "quantiles": [
+        {
+          "p": 0.1,
+          "x": 2.0
+        },
+        {
+          "p": 0.5,
+          "x": 2.000001
+        },
+        {
+          "p": 0.9,
+          "x": 2.0000020000000003
+        },
+        {
+          "p": 0.0,
+          "x": 1.99999998
+        }
+      ]
+    },
+    "fit": {
+      "status": "success",
+      "type": "exact",
+      "result": null,
+      "error": null
+    }
+  }
+}

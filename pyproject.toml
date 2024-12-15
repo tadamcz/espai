@@ -1,0 +1,45 @@
+[tool]
+[tool.poetry]
+name = "espai"
+version = "0.1.0"
+homepage = "https://github.com/tadamcz/espai"
+description = "Analysis of expert survey on progress in AI (ESPAI)"
+authors = ["Tom Adamczewski <tadamczewskipublic@gmail.com>"]
+readme = "README.md"
+classifiers=[
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3',
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pandas = "^2.2.2"
+scipy = "^1.12.0"
+matplotlib = "^3.9.2"
+diskcache = "^5.6.3"
+findiff = "^0.10.0"
+make-distribution = "^0.2.0"
+requests-cache = "^1.2.1"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+bump2version = "*"
+coverage = "*"
+
+black = {extras = ["d"], version = "*"}
+aider-chat = "^0.54.7"
+
+[tool.poetry.group.test.dependencies]
+pytest-xdist = "^3.6.1"
+pytest = ">=7.2.0"
+pytest-pycharm = "*"
+
+[tool.black]
+line-length = 100
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"

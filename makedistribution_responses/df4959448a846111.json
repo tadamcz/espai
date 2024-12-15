@@ -1,0 +1,73 @@
+{
+  "created_at": "2024-09-15T21:47:56.932873+00:00",
+  "elapsed": 0.14705,
+  "encoding": "utf-8",
+  "headers": {
+    "Allow": "GET, POST, HEAD, OPTIONS",
+    "Content-Length": "369",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Sun, 15 Sep 2024 21:47:56 GMT",
+    "Referrer-Policy": "same-origin",
+    "Server": "gunicorn",
+    "Strict-Transport-Security": "max-age=60; includeSubDomains; preload",
+    "Vary": "Accept, Cookie",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-Makedistribution-Id": "2085034b0e9ed297a894ff505809a49a"
+  },
+  "reason": "Created",
+  "request": {
+    "body": "dm>?SXLW65Zgg`ZIv{%@adlyCbZKm5b0Rt*TYDmKB03;2E-@@1B6uP?ATTa4Ffn~BAbTQkB03;2E;TG5B6uP?ATTa4FflMNF?}o`dm?ZmIv_AEIV>O|cp^F=FfK4KF)%POIXO8wIXO8wIXO8wIejc3dm?ZmIv_AEFf1S<cp^F=FfK5CU41MdB4%N2X>55SIv{%@a%FLKWpi|8WFk5sB4cT8bY*gIGhZ+<B7J=",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Authorization": "REDACTED",
+      "Connection": "keep-alive",
+      "Content-Length": "183",
+      "Content-Type": "application/json",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "POST",
+    "url": "https://makedistribution.com/s/api/v0/1d/dists/"
+  },
+  "status_code": 201,
+  "url": "https://makedistribution.com/s/api/v0/1d/dists/",
+  "_decoded_content": {
+    "id": "odist_4dySiUSEY9bP6Xo2WUEGND",
+    "name": null,
+    "family": {
+      "requested": "cinterp3_01",
+      "selected": "cinterp3_01"
+    },
+    "arguments": {
+      "quantiles": [
+        {
+          "p": 0.1,
+          "x": 0.001
+        },
+        {
+          "p": 0.5,
+          "x": 0.001001
+        },
+        {
+          "p": 0.9,
+          "x": 0.0010019999999999999
+        },
+        {
+          "p": 0.0,
+          "x": 0.0
+        }
+      ]
+    },
+    "fit": {
+      "status": "failure",
+      "type": null,
+      "result": null,
+      "error": {
+        "message": "`x` must contain only finite values.",
+        "class": "ValueError"
+      }
+    }
+  }
+}

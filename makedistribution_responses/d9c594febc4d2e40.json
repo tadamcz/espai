@@ -1,0 +1,70 @@
+{
+  "created_at": "2024-11-18T16:36:56.330539+00:00",
+  "elapsed": 0.088145,
+  "encoding": "utf-8",
+  "headers": {
+    "Allow": "GET, POST, HEAD, OPTIONS",
+    "Content-Length": "318",
+    "Content-Type": "application/json",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Date": "Mon, 18 Nov 2024 16:36:56 GMT",
+    "Referrer-Policy": "same-origin",
+    "Server": "gunicorn",
+    "Strict-Transport-Security": "max-age=60; includeSubDomains; preload",
+    "Vary": "Accept, Cookie",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-Makedistribution-Id": "9dfd6ddf64bacb6004c076ad3a34a36b"
+  },
+  "reason": "Created",
+  "request": {
+    "body": "dm>?SXLW65Zgg`ZIv{%@adlyCbZKm5b0Rt*TYDmKB03;2E;%_lFfcGMFfcGMFfcGMF)Sb=cp^F=F)%JLeJmh*B5)!)ATTaDIXO8vIXO8wIXO8wIXO8jAR>4oIv_GIE--y8AbTQkB03;2E;%_lIXO8jAR>4oIv_PLE--y8AbTQkB03;2E-)-0B6uP?ATTa4eO-MlAR=aAZE0+IB03;@B64MMb!BsOWn>~cAR=RFZggdGa5G;pF(Q3^",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Authorization": "REDACTED",
+      "Connection": "keep-alive",
+      "Content-Length": "196",
+      "Content-Type": "application/json",
+      "User-Agent": "python-requests/2.32.3"
+    },
+    "method": "POST",
+    "url": "https://makedistribution.com/s/api/v0/1d/dists/"
+  },
+  "status_code": 201,
+  "url": "https://makedistribution.com/s/api/v0/1d/dists/",
+  "_decoded_content": {
+    "id": "odist_3FNhMjUdwQzzK1fsHm13cH",
+    "name": null,
+    "family": {
+      "requested": "cinterp3_01",
+      "selected": "cinterp3_01"
+    },
+    "arguments": {
+      "quantiles": [
+        {
+          "p": 0.9990000000000001,
+          "x": 10.0
+        },
+        {
+          "p": 0.9999899999999999,
+          "x": 20.0
+        },
+        {
+          "p": 0.999999,
+          "x": 50.0
+        },
+        {
+          "p": 0.0,
+          "x": 0.0
+        }
+      ]
+    },
+    "fit": {
+      "status": "success",
+      "type": "exact",
+      "result": null,
+      "error": null
+    }
+  }
+}
